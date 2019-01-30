@@ -1,6 +1,5 @@
 .PHYON: main clean
 main: build/main.o
-	./build/main.o
 clean:
 	rm -rf build;
 build/main.o: build
